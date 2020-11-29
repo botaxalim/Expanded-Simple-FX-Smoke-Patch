@@ -1,0 +1,43 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ModMetaData>
+  <name>Expanded Simple FX Smoke Patch</name>
+  <author>Botaxalim</author>
+  <packageId>Botaxalim.ExpandedSimpleFXSmokePatch</packageId>
+  <supportedVersions>
+    <li>1.2</li>
+  </supportedVersions>
+  <description>
+		This Patch is for Simple FX: Smoke by Owlchemist
+		Complete Vanilla Expanded Series with a graphical mod which adds smoke particle emitters to various buildings, such as the campfire, stoves and generator.
+		Adding Compability with :
+	DLC Royalty
+	Vanilla Brewing Expanded - Coffees and Teas
+	Vanilla Cooking Expanded
+	Vanilla Cooking Expanded - Stews
+	Vanilla Furniture Expanded
+	Vanilla Furniture Expanded - Power
+	Vanilla Furniture Expanded - Production
+	Vanilla Factions Expanded - Settlers
+	Vanilla Factions Expanded - Vikings
+	</description>
+	<modDependenciesByVersion>
+    <v1.2>
+      <li>
+        <packageId>Owlchemist.SimpleFX.Smoke</packageId>
+        <displayName>Simple FX: Smoke</displayName>
+        <steamWorkshopUrl>steam://url/CommunityFilePage/1722840082</steamWorkshopUrl>
+      </li>
+    </v1.2>
+	</modDependenciesByVersion>
+	<loadAfter>
+		<li>Owlchemist.SimpleFX.Smoke</li>
+		<li>VanillaExpanded.VBrewECandT</li>
+		<li>VanillaExpanded.VCookE</li>
+		<li>VanillaExpanded.VCookEStews</li>
+		<li>VanillaExpanded.VFECore</li>
+		<li>VanillaExpanded.VFEPower</li>
+		<li>VanillaExpanded.VFEProduction</li>
+		<li>OskarPotocki.VanillaFactionsExpanded.SettlersModule</li>
+		<li>OskarPotocki.VFE.Vikings</li>
+	</loadAfter>
+</ModMetaData>

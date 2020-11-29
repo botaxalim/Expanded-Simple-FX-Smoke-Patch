@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Patch>
+	<Operation Class="PatchOperationAdd">
+		<xpath>Defs/ThingDef[defName="Brazier"]/comps</xpath>
+		<value>
+			<li Class="Smoker.CompProperties_Smoker">
+				<particleSize>1.5</particleSize>
+			</li>
+		</value>
+	</Operation>
+</Patch>
